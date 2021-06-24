@@ -29,7 +29,7 @@
 }
 
 .ex-4-square:hover {
-  opacity: 0;
+    opacity: 0;
 }
 
 .ex-5-square {
@@ -84,3 +84,120 @@
 }
 
 /* fine 6 a 10 */
+/* inzio 11 a 13 */
+
+.ex-11-icon:hover {
+    animation: giraa3 linear 1s;
+}
+
+@keyframes giraa3 {
+    0% {
+        transform: rotate(0);
+    }
+
+    80% {
+        transform: rotate(320deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: muovibordi linear 2s;
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: muovibottombordi linear 2s;
+}
+
+@keyframes muovibordi {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+@keyframes muovibottombordi {
+    0% {
+        bottom: -10px;
+        right: 10%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        bottom: -10px;
+        right: 10%;     
+    }
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: movetopbotton 2s linear;
+}
+@keyframes movetopbotton {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: movebottom 2s linear;
+}
+@keyframes movebottom {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    30% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    45% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+    90% {
+        right: -15px;
+        bottom: -10px;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
+
+
+/* fine 11 a 13 */
+
+
