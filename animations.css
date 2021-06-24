@@ -1,4 +1,4 @@
-
+/* inzio 1 a 5 */
 
 .ex-1-square {
     transition: 2s;
@@ -43,3 +43,44 @@
 .ex-5-square:active {
     transform: scale(1);
 }
+/* fine 1 a 5 */
+
+/* inzio 6 a 10 */
+
+.ex-6-img:hover {
+    filter: grayscale();
+}
+
+.ex-7-img:hover {
+    filter: sepia();
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(0.8);
+    transition: 3s;
+    border-radius: 20px;
+}
+
+.ex-9-img {
+    transition: 3s;
+}
+
+.ex-9-img:hover {
+    transform: scale(1.3);
+    border-radius: 20px;
+    filter: sepia();
+}
+
+.ex-10-icon {
+    animation: gira infinite linear 1s;
+}
+
+@keyframes gira {
+    0% {
+        transform: rotate(1turn);
+    }
+
+}
+
+/* fine 6 a 10 */
